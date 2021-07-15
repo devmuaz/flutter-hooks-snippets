@@ -2,8 +2,13 @@
   "name": "flutterhookssnippets",
   "displayName": "Flutter Hooks Snippets",
   "description": "A quick and easy code snippets for flutter hooks.",
+  "publisher": "devmuaz",
   "version": "0.0.1",
   "icon": "flutter_hooks_icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devmuaz/flutter-hooks-snippets"
+  },
   "engines": {
     "vscode": "^1.58.0"
   },
