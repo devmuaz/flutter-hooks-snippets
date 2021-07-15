@@ -1,0 +1,31 @@
+{
+    "Hook": {
+        "scope": "dart",
+        "prefix": "hook",
+        "description": "Creates a Hook class",
+        "body": [
+            "class $1Hook extends Hook<$2> {",
+            "\tconst $1Hook();",
+            "\n\t@override",
+            "\tHookState<$2, Hook<$2>> createState() => $1HookState();",
+            "}",
+            "\nclass $1HookState extends HookState<$2, $1Hook> {",
+            "\t@override",
+            "\t$2 build(BuildContext context) {",
+            "\t\treturn $3;",
+            "\t}",
+            "}"
+        ],
+    },
+    "InitHook": {
+        "scope": "dart",
+        "prefix": "initHook",
+        "body": [
+            "@override",
+            "void initHook() {",
+            "\tsuper.initHook();",
+            "\t$1",
+            "}"
+        ],
+    }
+}

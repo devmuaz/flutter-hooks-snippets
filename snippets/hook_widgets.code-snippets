@@ -1,0 +1,34 @@
+{
+    "HookWidget": {
+        "scope": "dart",
+        "prefix": "hookW",
+        "description": "Creates a HookWidget class.",
+        "body": [
+            "class $1 extends HookWidget {",
+            "\tconst $1({Key? key}) : super(key: key);",
+            "\n\t@override",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn const SizedBox();",
+            "\t}",
+            "}"
+        ],
+    },
+    "StatefulHookWidget": {
+        "scope": "dart",
+        "prefix": "hookSW",
+        "description": "Creates a StatefulHookWidget class.",
+        "body": [
+            "class $1 extends StatefulHookWidget {",
+            "\tconst $1({Key? key}) : super(key: key);",
+            "\n\t@override",
+            "\t_$1State createState() => _$1State();",
+            "}\n",
+            "class _$1State extends State<$1> {",
+            "\t@override",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn const SizedBox();",
+            "\t}",
+            "}"
+        ],
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "useState": {
+        "scope": "dart",
+        "prefix": "useS",
+        "body": [
+            "useState<$1>($2);",
+        ],
+    },
+    "useEffect": {
+        "scope": "dart",
+        "prefix": "useE",
+        "body": [
+            "useEffect(() {",
+            "\t$1",
+            "}, const []);"
+        ],
+    },
+    "useMemoized": {
+        "scope": "dart",
+        "prefix": "useM",
+        "body": [
+            "useMemoized<$1>(() {",
+            "\treturn $2;",
+            "}, const []);"
+        ],
+    },
+    "useReducer": {
+        "scope": "dart",
+        "prefix": "useR",
+        "body": [
+            "useReducer<$1, $2>(($1 state, $2 action) {",
+            "\treturn $3;",
+            "}, initialState: $4, initialAction: $5);"
+        ],
+    },
+    "useValueChanged": {
+        "scope": "dart",
+        "prefix": "useVc",
+        "body": [
+            "useValueChanged<$1, $2?>($3, ($1 value, $2? valueChange) {",
+            "\treturn $4;",
+            "});"
+        ],
+    },
+    "useValueNotifier": {
+        "scope": "dart",
+        "prefix": "useVn",
+        "body": [
+            "useValueNotifier<$1>($2);",
+        ],
+    }
+}

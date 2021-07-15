@@ -1,0 +1,35 @@
+{
+  "name": "flutterhookssnippets",
+  "displayName": "Flutter Hooks Snippets",
+  "description": "A quick and easy code snippets for flutter hooks.",
+  "version": "0.0.1",
+  "icon": "flutter_hooks_icon.png",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "keywords": [
+    "Flutter",
+    "Dart",
+    "Hooks",
+    "Snippets"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/create_hook.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/built_in_hooks.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/hook_widgets.code-snippets"
+      }
+    ]
+  }
+}
