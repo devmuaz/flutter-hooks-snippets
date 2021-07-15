@@ -1,5 +1,10 @@
 <p align='center'>
-	<img src='https://github.com/devmuaz/flutter-hooks-snippets/blob/master/flutter_hooks_icon.png' title='Flutter Hooks Snippets icon' alt='Flutter Hooks Snippets icon' width='250'/>
+	<img
+		src='https://github.com/devmuaz/flutter-hooks-snippets/blob/master/flutter_hooks_icon.png?raw=true'
+		title='Flutter Hooks Snippets icon'
+		alt='Flutter Hooks Snippets icon'
+		width='256'
+	/>
 </p>
 
 # Flutter Hooks Snippets
