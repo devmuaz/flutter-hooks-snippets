@@ -2,7 +2,7 @@
     "Hook": {
         "scope": "dart",
         "prefix": "hook",
-        "description": "Creates a Hook class",
+        "description": "Creates a Hook class.",
         "body": [
             "class $1Hook extends Hook<$2> {",
             "\tconst $1Hook();",
@@ -20,6 +20,7 @@
     "InitHook": {
         "scope": "dart",
         "prefix": "initHook",
+        "description": "Creates an initHook method, See 'hook' snippet",
         "body": [
             "@override",
             "void initHook() {",

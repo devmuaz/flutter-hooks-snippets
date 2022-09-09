@@ -9,22 +9,29 @@
 
 # Flutter Hooks Snippets
 
-Flutter Hooks Snippets is a [Visual Studio Code](https://code.visualstudio.com/) extension to make writing Flutter [Hooks](https://pub.dev/packages/flutter_hooks) easier and faster!
+Flutter Hooks Snippets is a [Visual Studio Code](https://code.visualstudio.com/) extension that makes writing Flutter [Hooks](https://pub.dev/packages/flutter_hooks) much easier and faster!
 
 Inspired by [React Hooks Snippets](https://github.com/alDuncanson/react-hooks-snippets) ❤️
 
-## Supported Snippets
+## Hooks Snippets
 
 | Prefix     | Snippet                    | Description                         |
 | ---------- | -------------------------- | ----------------------------------- |
 | `hook`     | `Hook` class               | Creates a Hook class.               |
-| `hookW`    | `WookWidget` class         | Creates a HookWidget class.         |
-| `hookWS`   | `StatefulHookWidget` class | Creates a StatefulHookWidget class. |
+| `hookW`    | `HookWidget` class         | Creates a HookWidget class.         |
+| `hookSW`   | `StatefulHookWidget` class | Creates a StatefulHookWidget class. |
 | `initHook` | `initHook()`               |
 | `useS`     | `useState()`               |
 | `useE`     | `useEffect()`              |
 | `useM`     | `useMemoized()`            |
 | `useR`     | `useReducer()`             |
+
+## Hooks Riverpod Snippets
+
+| Prefix   | Snippet                            | Description                                   |
+| -------- | ---------------------------------- | --------------------------------------------- |
+| `hookC`  | `HookConsumerWidget` class         | Creates a Creates a HookConsumerWidget class. |
+| `hookSC` | `StatefulHookConsumerWidget` class | Creates a StatefulHookConsumerWidget class.   |
 
 ## Medium articles by the author
 

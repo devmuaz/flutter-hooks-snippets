@@ -30,5 +30,37 @@
             "\t}",
             "}"
         ],
-    }
+    },
+    "HookConsumerWidget": {
+        "scope": "dart",
+        "prefix": "hookC",
+        "description": "Creates a HookConsumerWidget class.",
+        "body": [
+            "class $1 extends HookConsumerWidget {",
+            "\tconst $1({Key? key}) : super(key: key);",
+            "\n\t@override",
+            "\tWidget build(BuildContext context, WidgetRef ref) {",
+            "\t\treturn const SizedBox();",
+            "\t}",
+            "}"
+        ],
+    },
+    "StatefulHookConsumerWidget": {
+        "scope": "dart",
+        "prefix": "hookSC",
+        "description": "Creates a StatefulHookConsumerWidget class.",
+        "body": [
+            "class $1 extends StatefulHookConsumerWidget {",
+            "\tconst $1({Key? key}) : super(key: key);",
+            "\n\t@override",
+            "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
+            "}\n",
+            "class _$1State extends ConsumerState<$1> {",
+            "\t@override",
+            "\tWidget build(BuildContext context) {",
+            "\t\treturn const SizedBox();",
+            "\t}",
+            "}"
+        ],
+    },
 }
