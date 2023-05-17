@@ -15,16 +15,17 @@ Inspired by [React Hooks Snippets](https://github.com/alDuncanson/react-hooks-sn
 
 ## Hooks Snippets
 
-| Prefix     | Snippet                    | Description                         |
-| ---------- | -------------------------- | ----------------------------------- |
-| `hook`     | `Hook` class               | Creates a Hook class.               |
-| `hookW`    | `HookWidget` class         | Creates a HookWidget class.         |
-| `hookSW`   | `StatefulHookWidget` class | Creates a StatefulHookWidget class. |
-| `initHook` | `initHook()`               |
-| `useS`     | `useState()`               |
-| `useE`     | `useEffect()`              |
-| `useM`     | `useMemoized()`            |
-| `useR`     | `useReducer()`             |
+| Prefix        | Snippet                    | Description                         |
+| ------------- | -------------------------- | ----------------------------------- |
+| `importHooks` | Import Hooks               | Import Material and Hooks packages  |
+| `hook`        | `Hook` class               | Creates a Hook class.               |
+| `hookW`       | `HookWidget` class         | Creates a HookWidget class.         |
+| `hookSW`      | `StatefulHookWidget` class | Creates a StatefulHookWidget class. |
+| `initHook`    | `initHook()`               |
+| `useS`        | `useState()`               |
+| `useE`        | `useEffect()`              |
+| `useM`        | `useMemoized()`            |
+| `useR`        | `useReducer()`             |
 
 ## Hooks Riverpod Snippets
 

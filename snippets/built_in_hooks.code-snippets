@@ -1,4 +1,13 @@
 {
+    "Import Hooks": {
+        "scope": "dart",
+        "prefix": "importHooks",
+        "description": "Imports Material package and package:flutter_hooks",
+        "body": [
+            "import 'package:flutter/material.dart';",
+            "import 'package:flutter_hooks/flutter_hooks.dart';"
+        ],
+    },
     "useState": {
         "scope": "dart",
         "prefix": "useS",

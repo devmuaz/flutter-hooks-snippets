@@ -1,3 +1,7 @@
+## v0.0.5 (2023-05-17)
+
+- Added hooks import
+
 ## v0.0.4 (2022-09-09)
 
 - Added `HookConsumerWidget` and `StatefulHookConsumerWidget` for **Riverpod** support
