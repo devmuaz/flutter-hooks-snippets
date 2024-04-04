@@ -5,7 +5,7 @@
         "description": "Creates a HookWidget class.",
         "body": [
             "class $1 extends HookWidget {",
-            "\tconst $1({Key? key}) : super(key: key);",
+            "\tconst $1({super.key});",
             "\n\t@override",
             "\tWidget build(BuildContext context) {",
             "\t\treturn const SizedBox();",
@@ -19,7 +19,7 @@
         "description": "Creates a StatefulHookWidget class.",
         "body": [
             "class $1 extends StatefulHookWidget {",
-            "\tconst $1({Key? key}) : super(key: key);",
+            "\tconst $1({super.key});",
             "\n\t@override",
             "\t_$1State createState() => _$1State();",
             "}\n",
@@ -37,7 +37,7 @@
         "description": "Creates a HookConsumerWidget class.",
         "body": [
             "class $1 extends HookConsumerWidget {",
-            "\tconst $1({Key? key}) : super(key: key);",
+            "\tconst $1({super.key});",
             "\n\t@override",
             "\tWidget build(BuildContext context, WidgetRef ref) {",
             "\t\treturn const SizedBox();",
@@ -51,7 +51,7 @@
         "description": "Creates a StatefulHookConsumerWidget class.",
         "body": [
             "class $1 extends StatefulHookConsumerWidget {",
-            "\tconst $1({Key? key}) : super(key: key);",
+            "\tconst $1({super.key});",
             "\n\t@override",
             "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
             "}\n",
