@@ -1,3 +1,7 @@
+## v0.0.6 (2024-04-08)
+
+- Updated Hook's Widget snippet ([#2](https://github.com/devmuaz/flutter-hooks-snippets/pull/2) Thanks to [UkiDelly](https://github.com/UkiDelly))
+
 ## v0.0.5 (2023-05-17)
 
 - Added hooks import
